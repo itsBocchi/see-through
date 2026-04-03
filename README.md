@@ -43,7 +43,7 @@ conda create -n see_through python=3.12 -y
 conda activate see_through
 
 # 2. Install PyTorch (CUDA 12.8)
-pip install torch==2.8.0+cu128 torchvision==0.23.0+cu128 torchaudio==2.8.0+cu128 \
+pip install torch torchvision torchaudio \
   --index-url https://download.pytorch.org/whl/cu128
 
 # 3. Install dependencies (includes common utilities and annotators)
